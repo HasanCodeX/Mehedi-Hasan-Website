@@ -10,11 +10,13 @@ const ContactMe = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",     // Replace with actual
-        "YOUR_TEMPLATE_ID",    // Replace with actual
+        "service_ex94m43",     // Replace with actual YOUR_SERVICE_ID
+        "template_5yn6hqg",    // Replace with actual YOUR_TEMPLATE_ID
         formRef.current,
-        "YOUR_PUBLIC_KEY"      // Replace with actual
+        "UFLgRUB3KBnkwrw5_"      // Replace with actual YOUR_USER_ID ✅ This is your public key (can also be called "public key" in newer docs)
       )
+
+
       .then(
         (result) => {
           console.log("Email sent:", result.text);
