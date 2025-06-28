@@ -10,11 +10,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
       <SocialSidebar />
+      <HeroSection />
+      
       <AboutMe />
-     < ContactMe />
+     
      <ProjectSection />
+     < ContactMe />
     </>
   );
 }

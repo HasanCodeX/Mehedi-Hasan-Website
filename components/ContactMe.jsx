@@ -1,7 +1,5 @@
-// ContactMe.jsx
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const ContactMe = () => {
   const formRef = useRef();
@@ -12,10 +10,10 @@ const ContactMe = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Replace with your actual EmailJS Service ID
-        "YOUR_TEMPLATE_ID", // Replace with your actual Template ID
+        "YOUR_SERVICE_ID",     // Replace with actual
+        "YOUR_TEMPLATE_ID",    // Replace with actual
         formRef.current,
-        "YOUR_PUBLIC_KEY" // Replace with your EmailJS Public Key
+        "YOUR_PUBLIC_KEY"      // Replace with actual
       )
       .then(
         (result) => {
@@ -31,23 +29,21 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="  text-white min-h-screen px-4 py-12 md:px-12 relative">
-     
-      
-
+  
+    <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-semibold mb-4">Contact Me</h2>
-        <hr className="border-gray-700 mb-10" />
+        <h2 className="text-3xl md:text-4xl font-semibold mb-4">Contact Me</h2>
+        <hr className="border-base-content opacity-30 mb-10" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          {/* Left Side */}
           <div>
             <h3 className="text-2xl mb-4">Get in touch</h3>
             <p className="mb-4">
               <span className="font-bold">Email:</span>{" "}
               <a
                 href="mailto:dev.hasan10@gmail.com"
-                className="underline hover:text-gray-400"
+                className="underline hover:text-primary"
               >
                 dev.hasan10@gmail.com
               </a>
@@ -61,22 +57,26 @@ const ContactMe = () => {
             </p>
           </div>
 
-          {/* Right Section (Form) */}
-          <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-4">
+          {/* Right Side: Form */}
+          <form
+            ref={formRef}
+            onSubmit={sendEmail}
+            className="flex flex-col gap-4"
+          >
             <div className="flex flex-col md:flex-row gap-4">
               <input
                 type="text"
                 name="name"
                 placeholder="Name"
                 required
-                className="w-full border border-white bg-transparent px-4 py-3 outline-none"
+                className="flex-1 border border-base-content bg-transparent px-4 py-3 outline-none focus:ring focus:ring-primary"
               />
               <input
                 type="email"
                 name="email"
                 placeholder="Email"
                 required
-                className="w-full border border-white bg-transparent px-4 py-3 outline-none"
+                className="flex-1 border border-base-content bg-transparent px-4 py-3 outline-none focus:ring focus:ring-primary"
               />
             </div>
             <textarea
@@ -84,19 +84,20 @@ const ContactMe = () => {
               rows="6"
               placeholder="Message"
               required
-              className="border border-white bg-transparent px-4 py-3 outline-none"
+              className="border border-base-content bg-transparent px-4 py-3 outline-none focus:ring focus:ring-primary"
             ></textarea>
             <button
               type="submit"
-              className="border border-white px-6 py-2 hover:bg-white hover:text-black transition"
+              className="btn btn-outline border-base-content text-base-content hover:bg-primary hover:text-white"
             >
               Send
             </button>
+
             {success === true && (
-              <p className="text-green-400 mt-2">Message sent successfully!</p>
+              <p className="text-success mt-2">Message sent successfully!</p>
             )}
             {success === false && (
-              <p className="text-red-400 mt-2">Failed to send. Try again.</p>
+              <p className="text-error mt-2">Failed to send. Try again.</p>
             )}
           </form>
         </div>
