@@ -1,14 +1,42 @@
-# React + Vite
+# 🌐 Mehedi Hasan — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [mehedi-bd.vercel.app](https://mehedi-bd.vercel.app)  
+**GitHub Repo:** [github.com/HasanCodeX/Mehedi-Hasan-Website](https://github.com/HasanCodeX/Mehedi-Hasan-Website)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧑‍💻 About
 
-## Expanding the ESLint configuration
+This is my personal portfolio website built with modern tools including **React 19**, **Vite 6**, **Tailwind CSS**, and **DaisyUI**. It showcases my work, skills, and contact info with a responsive design and smooth user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# assignment-react-demu-set-up
-# test
+---
+
+## 🚀 Features
+
+- ⚛️ Built with React 19 + Vite
+- 🎨 Tailwind CSS + DaisyUI theme support
+- ✍️ Animated Typewriter intro
+- 📁 Project cards with modal details
+- 📬 Contact form powered by EmailJS
+- 🔀 Routing with React Router v7
+- 🌍 Live deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, Vite 6  
+- **Styling:** Tailwind CSS 4, DaisyUI 5  
+- **Routing:** React Router v7  
+- **UI Tools:** React Icons, EmailJS, Typewriter  
+- **Hosting:** Vercel  
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/HasanCodeX/Mehedi-Hasan-Website
+cd Mehedi-Hasan-Website
+npm install
+npm run dev
