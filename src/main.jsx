@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         Component: AboutMe,
       },
       {
-        path: "portfolio",
+        path: "projects",
         Component: ProjectSection,
       },
       {

@@ -69,11 +69,11 @@ const Navbar = () => {
     About Me
   </a>
   <a
-    href="/portfolio"
+    href="/projects"
     onClick={() => setMenuOpen(false)}
     className="block font-extrabold text-4xl hover:text-primary transition focus:outline-none focus:ring-2 focus:ring-primary px-3 py-2 rounded"
   >
-    Portfolio
+    Projects
   </a>
   <a
     href="/contact"
