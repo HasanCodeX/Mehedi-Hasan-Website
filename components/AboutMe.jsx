@@ -75,11 +75,11 @@ const AboutMe = () => {
       
 
       {/* Skills */}
-      <div className="mb-12 ">
+      <div className="mb-12 w-fit">
         {/* <h2 className="text-2xl font-light mb-4">Skills</h2> */}
         <h2 className="text-2xl md:text-3xl font-semibold mb-4">Skills</h2>
         <hr className="border-base-content opacity-30 mb-10" />
-        <div className="whitespace-nowrap py-6">
+        <div className="whitespace-nowrap py-6 ">
           <div className="flex space-x-6 min-w-max animate-scroll-horizontal">
             {skills.map((skill, i) => (
               <div

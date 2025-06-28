@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="  top-0 left-0 right-0 fixed flex justify-between items-center pl-6 pb-4 max-w-7xl mx-auto">
+      <header className=" z-10 top-0 left-0 right-0 fixed flex justify-between items-center pl-0 pb-4 max-w-[1800px] mx-auto">
         <div className="bg-base-200 p-6   text-xl font-bold text-base-content">Mehedi</div>
 
         <div className=" bg-base-200 p-6  flex items-center gap-4">

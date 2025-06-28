@@ -41,16 +41,31 @@ const Typewriter = () => {
 
 const HeroSection = () => {
   return (
-    <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
+    // <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
+    <div className="md:pl-24 mt-16 min-h-screen px-0 py-0 bg-base-100 text-base-content">
       <main className="flex flex-col md:flex-row items-center max-w-7xl mx-auto">
-        <div className="flex-1 space-y-8">
-          <p className="text-xl font-light font-serif">Hi, I’m</p>
+
+
+       {/* mobile image     */}
+
+<div className="flex-1 mt-0 md:mt-0 justify-center block md:hidden">
+  <img
+    src="https://i.ibb.co/jZkXcSJJ/6b2a9bc5-6b88-468c-93a6-ff8d4e71cd1c33.png"
+    alt="Mehedi Hasan"
+    className="object-cover border-b-4 rounded-2xl w-[300px] h-auto"
+  />
+</div>
+
+
+        
+        <div className="text-center md:text-left px-6 py-10 flex-1 space-y-8">
+          <p className=" text-xl font-light font-serif">Hi, I’m</p>
           <h1 className="text-4xl sm:text-5xl font-bold font-serif">Mehedi Hasan</h1>
           <Typewriter />
           <p className="text-base sm:text-lg font-light max-w-md">
             A passionate Frontend Developer based in Bangladesh, I specialize in React, Tailwind CSS, and Next.js.
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center md:justify-start">
             <a
               href="https://drive.google.com/file/d/1YrK5nvx-qERTaq32aIWT7-tJgtfnHLRe/view?usp=sharing"
               target="_blank"
@@ -67,11 +82,13 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
-        <div className="flex-1 mt-10 md:mt-0 flex justify-center">
+        {/* desktop image */}
+
+        <div className="hidden md:flex flex-1 mt-10 md:mt-0 flex justify-center">
           <img
-            src="https://i.ibb.co/KppYRxsz/profile-recize.jpg"
+            src="https://i.ibb.co/jZkXcSJJ/6b2a9bc5-6b88-468c-93a6-ff8d4e71cd1c33.png"
             alt="Mehedi Hasan"
-            className="rounded-xl w-80 h-auto object-cover shadow-lg"
+            className=" object-cover border-b-4 rounded-2xl w-[300px] h-auto"
           />
         </div>
       </main>
