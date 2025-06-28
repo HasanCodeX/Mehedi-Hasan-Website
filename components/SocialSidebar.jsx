@@ -1,29 +1,29 @@
 import React from "react";
 import {
   FaGithub,
-  FaFacebookF,
+  // FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
 
 const links = [
   {
-    href: "https://github.com/yourusername",
+    href: "https://github.com/hasancodex",
     icon: <FaGithub size={18} />,
     label: "GitHub",
   },
+  // {
+  //   href: "https://facebook.com/hasancodex",
+  //   icon: <FaFacebookF size={18} />,
+  //   label: "Facebook",
+  // },
   {
-    href: "https://facebook.com/yourusername",
-    icon: <FaFacebookF size={18} />,
-    label: "Facebook",
-  },
-  {
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/hasancodex",
     icon: <FaLinkedinIn size={18} />,
     label: "LinkedIn",
   },
   {
-    href: "https://twitter.com/yourusername",
+    href: "https://x.com/hasancodex",
     icon: <FaTwitter size={18} />,
     label: "Twitter",
   },
