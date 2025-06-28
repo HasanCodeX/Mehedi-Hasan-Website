@@ -70,13 +70,13 @@ const HeroSection = () => {
               href="https://drive.google.com/file/d/1YrK5nvx-qERTaq32aIWT7-tJgtfnHLRe/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline"
+              className="btn btn-primary "
             >
               My Resume
             </a>
             <a
               href="/contact"
-              className="btn btn-primary"
+              className="btn btn-outline"
             >
               Contact Me
             </a>
