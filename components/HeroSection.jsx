@@ -52,7 +52,7 @@ const HeroSection = () => {
           </p>
           <div className="flex gap-4">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1YrK5nvx-qERTaq32aIWT7-tJgtfnHLRe/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"
