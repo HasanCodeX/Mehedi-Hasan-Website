@@ -11,7 +11,6 @@ const skills = [
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400 text-5xl" /> },
   { name: "React", icon: <FaReact className="text-blue-400 text-5xl" /> },
   { name: "Next.js", icon: <SiNextdotjs className="text-white text-5xl" /> },
-  { name: "Redux", icon: <SiRedux className="text-purple-500 text-5xl" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-5xl" /> },
   { name: "Express.js", icon: <SiExpress className="text-gray-300 text-5xl" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-400 text-5xl" /> },
