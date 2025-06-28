@@ -60,7 +60,7 @@ const HeroSection = () => {
               My Resume
             </a>
             <a
-              href="#contact"
+              href="/contact"
               className="btn btn-primary"
             >
               Contact Me

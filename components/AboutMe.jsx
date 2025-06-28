@@ -36,7 +36,7 @@ const skills = [
 
 const AboutMe = () => {
   return (
-    <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
+    <div className="md:pl-24  min-h-screen px-6 py-10 bg-base-100 text-base-content">
     
       {/* Header */}
      <h2 className="text-3xl md:text-4xl font-semibold mb-4">About Me</h2>
@@ -76,16 +76,16 @@ const AboutMe = () => {
       
 
       {/* Skills */}
-      <div className="mb-12">
+      <div className="mb-12 ">
         {/* <h2 className="text-2xl font-light mb-4">Skills</h2> */}
         <h2 className="text-2xl md:text-3xl font-semibold mb-4">Skills</h2>
         <hr className="border-base-content opacity-30 mb-10" />
-        <div className="overflow-x-auto whitespace-nowrap py-6">
+        <div className="whitespace-nowrap py-6">
           <div className="flex space-x-6 min-w-max animate-scroll-horizontal">
             {skills.map((skill, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center justify-center min-w-[140px] h-44 bg-base-200 text-base-content rounded-xl p-4 shadow-md hover:scale-105 transition"
+                className="z-10 flex flex-col items-center justify-center min-w-[140px] h-44 bg-base-200 text-base-content rounded-xl p-4 shadow-md hover:scale-105 transition"
               >
                 <div className="mb-3">{skill.icon}</div>
                 <div className="text-sm font-medium">{skill.name}</div>
