@@ -51,6 +51,11 @@ const ContactMe = () => {
             <p className="mb-4">
               <span className="font-bold">Phone:</span> +8801747874773
             </p>
+            <p className="mb-4">
+              <span className="font-bold">Location:</span> Mymensingh, Bangladesh.
+            </p>
+            <hr className="border-base-content opacity-30 mb-4" />
+            
             <p>
               Feel free to reach out for projects, collaborations, or just a
               friendly chat. I'm open to connecting!
