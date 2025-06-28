@@ -31,7 +31,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className=" bg-black text-white min-h-screen px-4 py-12 md:px-12 relative">
+    <div className="  text-white min-h-screen px-4 py-12 md:px-12 relative">
      
       
 

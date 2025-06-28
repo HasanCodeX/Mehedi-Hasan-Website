@@ -77,7 +77,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
   return (
     <>
-      <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+      <header className="bg-base-200 flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         <div className="text-xl font-bold text-white">Mehedi</div>
         <div className="flex items-center gap-4">
           <button
@@ -92,6 +92,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           >
             <FaBars />
           </button>
+          <input type="checkbox" value="nord" className="toggle theme-controller" />
         </div>
       </header>
 
