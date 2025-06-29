@@ -66,7 +66,7 @@ const Navbar = () => {
     onClick={() => setMenuOpen(false)}
     className="block font-extrabold text-4xl hover:text-primary transition focus:outline-none focus:ring-2 focus:ring-primary px-3 py-2 rounded"
   >
-    About Me
+    About
   </a>
   <a
     href="/projects"

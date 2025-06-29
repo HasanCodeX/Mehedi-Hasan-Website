@@ -144,7 +144,7 @@ const ProjectSection = () => {
 
   return (
     <div className="mt-16 mb-16 md:pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
-      <h2 className="text-3xl md:text-4xl font-semibold mb-4">Projects</h2>
+      <h2 className="text-3xl md:text-4xl font-semibold mb-4">My Projects</h2>
       <hr className="border-base-content opacity-30 mb-10" />
       <div className="space-y-10 max-w-6xl mx-auto">
         {projects.map((project, index) => (

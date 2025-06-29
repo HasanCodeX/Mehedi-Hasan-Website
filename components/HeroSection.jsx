@@ -42,7 +42,7 @@ const Typewriter = () => {
 const HeroSection = () => {
   return (
     // <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
-    <div className="md:pl-24 mt-16 min-h-screen px-0 py-0 bg-base-100 text-base-content">
+    <div className="md:pl-24 mb-16 mt-16 min-h-screen px-0 py-0 bg-base-100 text-base-content">
       <main className="flex flex-col md:flex-row items-center max-w-7xl mx-auto">
 
 
