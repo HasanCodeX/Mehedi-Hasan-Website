@@ -47,7 +47,7 @@ const SocialSidebar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={label}
-          className="text-base-content hover:text-primary transition-colors duration-200"
+          className="text-base-content hover:text-primary transition-colors duration-200 "
         >
           {icon}
         </a>
