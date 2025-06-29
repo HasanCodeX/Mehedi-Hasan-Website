@@ -57,8 +57,8 @@ const AboutMe = () => {
       </div>
     </div>
 
-      {/* Timeline
-      <div className="mb-12 max-w-3xl">
+      {/* Timeline */}
+      {/* <div className="mb-12 max-w-3xl">
         <h2 className="text-2xl font-light mb-4">Work Timeline</h2>
         {[
           ["MERN Stack Development Trainee", "Programming Hero", "2024 (6-Month Course)"],
@@ -82,11 +82,11 @@ const AboutMe = () => {
       <hr className="border-base-content opacity-30 mb-10" />
 
       <div className="py-6 relative">
-        <div className="flex space-x-6 w-max animate-scroll-horizontal">
+        <div className="flex space-x-6 w-max animate-scroll-horizontal  ">
           {skills.map((skill, i) => (
             <div
               key={i}
-              className="flex flex-col items-center justify-center min-w-[140px] h-44 bg-base-200 text-base-content rounded-xl p-4 shadow-md hover:scale-105 transition"
+              className="h-24 flex flex-col items-center justify-center md:min-w-[140px] md:h-44 bg-base-200 text-base-content rounded-xl p-4 shadow-md hover:scale-105 transition"
             >
               <div className="mb-3">{skill.icon}</div>
               <div className="text-sm font-medium">{skill.name}</div>
