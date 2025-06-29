@@ -38,7 +38,7 @@ const AboutMe = () => {
     <div className="md:pl-24 mt-16 mb-16 min-h-screen px-6 py-10 bg-base-100 text-base-content">
     
       {/* Header */}
-     <h2 className="text-3xl md:text-4xl font-semibold mb-4">About Me</h2>
+     <h2 className="text-3xl md:text-4xl  font-semibold mb-4">About Me</h2>
         <hr className="border-base-content opacity-30 mb-10" />
 
       {/* Bio */}
@@ -50,7 +50,10 @@ const AboutMe = () => {
       </div> */}
        <div className="mb-12 max-w-3xl mx-auto">
       <div className="bg-base-200 text-base-content shadow-lg rounded-xl p-6 md:p-8 border border-base-content/10">
-        <h2 className="text-3xl font-semibold mb-4">About Myself</h2>
+        <h2 className=" text-2xl md:text-3xl font-semibold mb-4 ">The Developer Story</h2>
+        <hr className="border-base-content opacity-30 mb-4" />
+
+        
         <p className="text-base-content/70 leading-relaxed text-sm md:text-base">
           Hi, I’m <span className="font-semibold text-primary">Mehedi Hasan</span> — a passionate Frontend Developer based in Bangladesh. I specialize in building modern, responsive web applications using technologies like <strong>React</strong>, <strong>Tailwind CSS</strong>, and <strong>Next.js</strong>.
         </p>
