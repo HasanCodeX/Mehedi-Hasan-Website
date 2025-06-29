@@ -60,7 +60,7 @@ const ContactMe = () => {
             
             <p>
               Feel free to reach out for projects, collaborations, or just a
-              friendly chat. I'm open to connecting!
+              friendly chat. I'm open to connecting !
             </p>
           </div>
 
