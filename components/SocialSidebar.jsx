@@ -4,6 +4,7 @@ import {
   // FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const links = [
@@ -17,6 +18,7 @@ const links = [
   //   icon: <FaFacebookF size={18} />,
   //   label: "Facebook",
   // },
+
   {
     href: "https://linkedin.com/in/hasancodex",
     icon: <FaLinkedinIn size={18} />,
@@ -27,6 +29,12 @@ const links = [
     icon: <FaTwitter size={18} />,
     label: "Twitter",
   },
+  {
+  href: "https://wa.me/8801747874773", // ✅ WhatsApp link
+  icon: <FaWhatsapp size={18} />,
+  label: "WhatsApp",
+}
+
 ];
 
 const SocialSidebar = () => {
