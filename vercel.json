@@ -2,5 +2,5 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ],
-  "installCommand": "npm install --legacy-peer-deps"
+  "installCommand": "pnpm install --legacy-peer-deps"
 }
