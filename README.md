@@ -38,5 +38,5 @@ This is my personal portfolio website built with modern tools including **React 
 ```bash
 git clone https://github.com/HasanCodeX/Mehedi-Hasan-Website
 cd Mehedi-Hasan-Website
-npm install
-npm run dev
+pnpm install
+pnpm run dev
