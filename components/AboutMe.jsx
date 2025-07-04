@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import React from "react";
 import {
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaJsSquare, FaTools,
@@ -35,7 +36,11 @@ const skills = [
 
 const AboutMe = () => {
   return (
-    <div className="md:pl-24 mt-16 mb-16 min-h-screen px-6 py-10 bg-base-100 text-base-content">
+    <>
+      <Helmet>
+        <title>Mehedi Hasan - About</title>
+      </Helmet>
+      <div className="md:pl-24 mt-16 mb-16 min-h-screen px-6 py-10 bg-base-100 text-base-content">
     
       {/* Header */}
      <h2 className="text-3xl md:text-4xl  font-semibold mb-4">About Me</h2>
@@ -138,6 +143,7 @@ const AboutMe = () => {
 
       </div>
     </div>
+    </>
   );
 };
 

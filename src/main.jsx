@@ -9,6 +9,7 @@ import AboutMe from "../components/AboutMe";
 import "./App.css";
 import ContactMe from '../components/ContactMe';
 import ProjectSection from "../components/ProjectSection";
+import NotFound from "../components/NotFound";
 
 import {
   createBrowserRouter,
@@ -36,16 +37,24 @@ const router = createBrowserRouter([
       {
         path: "contact",
         Component: ContactMe,
+      },
+      {
+        path: "*",
+        Component: NotFound,
       }
     ],
   },
 ]);
 
+import { HelmetProvider } from 'react-helmet-async';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </StrictMode>,
-)
+);
 
 
 

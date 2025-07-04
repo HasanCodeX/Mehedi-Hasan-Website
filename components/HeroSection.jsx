@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import React from "react";
 
 const phrases = [
@@ -41,7 +42,11 @@ const Typewriter = () => {
 
 const HeroSection = () => {
   return (
-    // <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content">
+    <>
+      <Helmet>
+        <title>Mehedi Hasan - Home</title>
+      </Helmet>
+    {/* <div className="pl-24 min-h-screen px-6 py-10 bg-base-100 text-base-content"> */}
     <div className="md:pl-24 mb-16 mt-16 min-h-screen px-0 py-0 bg-base-100 text-base-content">
      
 
@@ -91,6 +96,7 @@ const HeroSection = () => {
 </main>
 
     </div>
+    </>
   );
 };
 
