@@ -73,7 +73,7 @@ const HeroSection = () => {
       <div className="flex flex-wrap gap-4 justify-center md:justify-start">
   {/* Resume Button */}
   <a
-    href="https://drive.google.com/file/d/1YrK5nvx-qERTaq32aIWT7-tJgtfnHLRe/view?usp=sharing"
+    href="https://drive.google.com/file/d/1855oZnOicLuZU-ZLXQUxO-hj1hXI9LH8/view"
     target="_blank"
     rel="noopener noreferrer"
     className="btn btn-primary  shadow-md hover:scale-105 transition-transform duration-300"
